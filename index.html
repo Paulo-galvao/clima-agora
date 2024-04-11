@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Clima agora</title>
+</head>
+<body>
+    <div class="app">
+        <form>
+            <input id="city-name-input" type="text" placeholder="Por favor, digite o nome da cidade">
+            <button id="search-btn">
+                <i class='bx bx-search-alt-2'></i>
+            </button>
+        </form>
+        <main>
+            <ul class="weather-board">
+                <li id="title">Clima em <span id="local">Ponta Grossa</span></li>
+                <li id="temperature">21°C</li>
+                <li id="weather-icon">                    
+                    <img src=" https://openweathermap.org/img/wn/03d.png" alt="condicão climática">
+                </li>
+                <li id="description">Nublado</li>
+                <li id="humidity">Umidade: 76%</li>
+                <li id="wind-speed">
+                    <i class='bx bx-wind'></i>
+                    <span id="speed">3.19 km/h</span>
+                </li>
+                <li id="country">BR</li>
+            </ul>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

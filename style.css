@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.app {
+    background: #36454F;
+    color: #fff;
+    opacity: .9;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#weather-icon img {
+    opacity: 1;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+form input {
+    height: 40px;
+    width: 300px;
+    background: #E5E4E2;
+    font-size: .9em;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+form button {
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+form button i {
+    font-size: 1.5em;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 10px;     
+}
+
+.weather-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#title {
+    grid-column: 1 / -1;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#temperature {
+    align-self: center;
+}
+
+#description {
+    height: 50px;
+    text-transform: capitalize;
+}
+
