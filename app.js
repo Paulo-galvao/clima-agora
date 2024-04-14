@@ -12,7 +12,6 @@ const country = document.querySelector("#country");
 
 async function getCityStats(cityName) {
     const cityStats = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}&units=metric&lang=pt_br`).then( response => response.json());
-    console.log(cityStats);
     setCityStats(cityStats);
 }
 
