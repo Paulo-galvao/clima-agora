@@ -2,7 +2,7 @@
 consumo de API openweathermap
 
 O aplicativo funciona com a pesquisa de qualquer cidade pelo seu nome.
-A pesquisa retorna:
+A pesquisa retorna: <br/>
 -> nome da cidade;
 -> temperaura;
 -> condições climáticas;
